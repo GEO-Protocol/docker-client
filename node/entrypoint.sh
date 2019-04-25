@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $1 == "" ]; then
+if [ "$1" = "" ]; then
     echo "You should pass HOST of the node as a parameter to docker run."
     echo "Example: docker run -i -t geo-node 0.0.0.0"
     exit
